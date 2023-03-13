@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+</head>
+<body>
+    <!-- Tables  -->
+    <table border="1">
+        <!-- <tr>
+            <td><b>S.no</b></td>
+            <td><b>Name</b></td>
+            <td><b>Age</b></td>
+        </tr> -->
+        <!-- instead of bold tag we can use table header tag -->
+        <thead>
+            <tr>
+                <th bgcolor="red">S.NO</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td bgcolor="purple">Harika</td>
+                <td bgcolor="yellow" rowspan="2">25</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Harsha</td>
+                <!-- <td>25</td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">SUM: 2 People</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+</body>
+</html>
